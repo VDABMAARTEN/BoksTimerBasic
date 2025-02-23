@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <script src="timer.js" type="module"></script>
+    <link rel="icon" href="bokstimerfavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+<div id="inputDiv" hidden>
+    <h1>Combotrainer</h1>
+    <div id="tabelDiv">
+        Vul in hoeveel minuten je wil trainen en druk op Start.
+    <table>
+        <tr>
+            <td><input type="number" class="input" id="minutenInput" step="1" min="1" value="5" size = "2" required autofocus></td>
+            <td>Minuten</td>
+        </tr>
+    </table>
+    <br>
+    <button id="start">Start</button><br>
+</div>
+</div>
+<div id="timerDiv">
+    <span id ="combo" class="combo"></span>
+    <span id ="comboUitleg" class="comboUitleg"></span>
+    <span id="display" class="timer"></span>
+    <button id="stop">Stop</button>
+</div>
+<div id="info" hidden><a href="info.html">Hoe werkt het?</a><br></div>
+<div id="feedback" hidden><a href="https://docs.google.com/forms/d/e/1FAIpQLSeac7t7vkCYy3De6RGCKqc0M5B90x6UgwonOW4iKXEYgSavAQ/viewform?usp=sharing">Geef hier je feedback!</a></div>
+
+</body>
+</html>
